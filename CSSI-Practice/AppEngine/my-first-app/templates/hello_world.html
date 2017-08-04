@@ -1,0 +1,30 @@
+<html>
+<head>
+</head>
+<body>
+  <h1> {{ greeting }} {{ name }}</h1>
+  <h1> My handler worked (with templates!) </h1>
+  <form>
+    What is your name? <input name="my_name" type="text"> <br/>
+    What is your favorite color? <input name = "favorite_color" type="text">
+    <input type = submit> <br/>
+    Select a number: <input number = "a_number" type="integer">
+  </form>
+  {% if name == "Nicole"%}
+  Bonjour Nicole
+  {% else%}
+  Hello {{name}} <br/>
+  <img src= "resources/spanishinq.jpg">
+  {% endif %} <br/>
+  <img src= "resources/unitato.jpg"> <br/>
+  {%if color in ["Red", "red", "yellow", "Yellow"] %}
+  {{color}}? You need to reassess your priorities <br/>
+  <img src = "resources/unimpressed.jpg">
+  {% else %}
+  {{color}} is a great color!
+  {% for i in range (a_number)%}
+  You're cool!
+  {% endfor %}
+  {% endif %}
+</body>
+</html>

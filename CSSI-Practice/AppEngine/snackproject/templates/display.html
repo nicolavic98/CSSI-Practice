@@ -1,0 +1,7 @@
+<h1>Your snack list: </h1>
+
+<ol>
+{% for listItem in snack_list %}
+  <li>{{listItem.kind}}</li>
+{% endfor %}
+</ol>

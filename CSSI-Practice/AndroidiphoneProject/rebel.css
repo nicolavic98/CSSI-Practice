@@ -1,0 +1,33 @@
+body {
+  background-color: grey;
+}
+
+/*nav bar */
+  #nav-bar {
+    list-style-type: none;
+    background-color: white;
+    border-color: black;
+    overflow: hidden;
+    margin: 0;
+    border-radius: 100px;
+}
+  #nav-bar li {
+    float: left;
+  }
+  #nav-bar li a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+  }
+  #nav-bar li a:hover {
+    background-color: grey;
+  }
+  #believe-button{
+      background-color: pink;
+      border-color: black;
+      padding: 5px;
+      width: 100px;
+      display: block;
+  }

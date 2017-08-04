@@ -1,0 +1,108 @@
+h1 {
+    color: violet;
+    font-size: 35;
+    font-family: cursive;
+  }
+h2 {
+    color: black;
+    font-family: monospace;
+  }
+.pink-heading {
+    color: pink;
+    font-family: monospace;
+  }
+p {
+  color: purple;
+  font-family: sans-serif;
+}
+a {
+  color: blue;
+  font-family: sans-serif;
+  font-size: 15px;
+  /*since these were under my lists I could have also done "ul li {}" if they WEREN'T links*/
+}
+h3 {
+  text-indent: 1cm;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+ol {
+  color: blue;
+  font-family: sans-serif;
+}
+#profiles {
+  color: black;
+  font-family: sans-serif;
+  padding: 10px;
+}
+.social {
+  margin: auto;
+  background-color: pink;
+  opacity: .6;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: black;
+  width: 300px;
+  height: 100px;
+
+}
+.whole-page{
+  list-style-position: inside;
+  text-align: center;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: black;
+  background-color: #6988EC;
+}
+span{
+  font-weight: bold;
+  color: orange;
+}
+
+#hide-button{
+  background-color: pink;
+  border-color: black;
+  padding: 5px;
+  width: 50px;
+  display: block;
+}
+#show {
+  background-color: pink;
+  border-color: black;
+  padding: 5px;
+  width: 50px;
+  display: block;
+}
+
+/*navigation bar stuff*/
+  #nav-bar{
+    list-style-type: none;
+    background-color: pink;
+    border-color: black;
+    overflow: hidden;
+    margin: 0;
+    border-radius: 100px;
+  }
+  #nav-bar li {
+    float: left;
+  }
+  #nav-bar li a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+  #nav-bar li a:hover {
+    background-color: grey;
+  }
+
+
+.Paris-photo{
+  display: inline;
+}
+.hidden{
+  display: none;
+}
